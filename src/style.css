@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    input {
+        @apply w-full border px-4 py-2 rounded-full placeholder:italic focus:border-blue-500 outline-none
+    }
+
+    textarea {
+        @apply w-full border px-4 py-2 rounded focus:border-blue-500 focus:shadow-md outline-none
+    }
+
+    h3 {
+        @apply text-xl font-semibold
+    }
+}
